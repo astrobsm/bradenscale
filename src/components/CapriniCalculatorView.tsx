@@ -166,7 +166,7 @@ export function CapriniCalculatorView() {
         </div>
 
         {/* AI Recommendations */}
-        <CapriniRecommendationsPanel analysis={aiAnalysis} />
+        <CapriniRecommendationsPanel analysis={aiAnalysis} totalScore={totalScore} />
 
         {/* Actions */}
         <div className="flex flex-wrap gap-4 justify-center">
